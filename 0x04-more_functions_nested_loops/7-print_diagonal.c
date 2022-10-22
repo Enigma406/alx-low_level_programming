@@ -2,21 +2,19 @@
 
 /**
  * print_diagonal - draws a diagonal line on the terminal.
- * @n: the number of '\' to be printed
- * Return: 0
+ * @n: the integer parameter
  */
-
 void print_diagonal(int n)
 {
-	int d, c;
+	int x, i;
 
 	if (n <= 0)
 	_putchar('\n');
 else
 {
-	for (d = 0; d < n; d++)
+	for (x = 0; x < n; x++)
 {
-	for (c = 0, c < d; c++)
+	for (i = 0, i < x; i++)
 	_putchar(' ');
 	_putchar(92);
 	_putchar('\n');
