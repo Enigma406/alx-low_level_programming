@@ -11,5 +11,8 @@ int is_prime_number(int n);
 int _putchar(char c);
 int _evaluate(int i, int n);
 int evaluate_num(int num, int iterator);
+int _strlen_recursion(char *s);
+int p1(char *s, int l);
+int is_palindrome(char *s);
 
 #endif
