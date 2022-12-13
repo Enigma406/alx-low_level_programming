@@ -10,7 +10,7 @@ void close_file(int fd);
  * @file: The name of the file buffer is storing chars for.
  * Return: A pointer to the newly allocated buffer.
  */
-char *create_buffer(char *file);
+char *create_buffer(char *file)
 {
 	char *buffer;
 
